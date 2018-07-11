@@ -16,7 +16,7 @@
     </div>
     
     <!-- Content -->
-    <main id="content" class="directions">
+    <main id="content" class="introduce directions">
         <div class="container">
             <div class="page-header">
 				<h1>Contact Us</h1>
