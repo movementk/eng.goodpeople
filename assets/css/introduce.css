@@ -395,7 +395,8 @@
       #content.introduce.directions .contact dl {
         overflow: hidden; }
         #content.introduce.directions .contact dl dt {
-          clear: left;
+          float: left;
+          clear: both;
           line-height: 22px;
           font-weight: normal; }
         #content.introduce.directions .contact dl dd {
