@@ -84,13 +84,13 @@
                         <a href="#">Outreach</a>
                         <ul class="depth-2">
                             <li class="quick-link">
-                                <a href="#" class="space">International sponsorship establishment</a>
+                                <a href="/relationship/overseas_business.php" class="space">International sponsorship establishment</a>
                             </li>
                             <li class="quick-link">
-                                <a href="#" class="space">Domestic sponsorship establishment</a>
+                                <a href="/relationship/domestic_business.php" class="space">Domestic sponsorship establishment</a>
                             </li>
                             <li class="quick-link">
-                                <a href="#">Contact us</a>
+                                <a href="/introduce/directions.php">Contact us</a>
                             </li>
                         </ul>
                     </li>

@@ -95,9 +95,9 @@
                             <li>
                                 <h3>Outreach</h3>
                                 <ul>
-                                    <li><a href="#">International sponsorship establishment<span></span></a></li>
-                                    <li><a href="#">Domestic sponsorship establishment<span></span></a></li>
-                                    <li><a href="#">Contact us<span></span></a></li>
+                                    <li><a href="/relationship/overseas_business.php">International sponsorship establishment<span></span></a></li>
+                                    <li><a href="/relationship/domestic_business.php">Domestic sponsorship establishment<span></span></a></li>
+                                    <li><a href="/introduce/directions.php">Contact us<span></span></a></li>
                                 </ul>
                             </li>
                         </ul>
