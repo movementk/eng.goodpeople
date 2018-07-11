@@ -16,7 +16,7 @@
     </div>
     
     <!-- Content -->
-    <main id="content" class="domestic-business">
+    <main id="content" class="relationship domestic business">
         <div class="container">
             <div class="page-header">
 				<h1>Domestic sponsorship establishment</h1>

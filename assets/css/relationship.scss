@@ -1,3 +1,4 @@
+/*
 @import 'common';
 
 //국내 
@@ -23,8 +24,729 @@
 		}
 	}
 }
+*/
 
 
+
+/*
+ * @설명: 아동결연 메뉴의 하위 메뉴들에 대한 스타일
+ */
+
+#content {
+  &.relationship {
+    font-size: 13px;
+    line-height: 20px;
+    color: #444;
+    &.overseas .page-header h1, &.domestic .page-header  h1 {
+      margin-bottom: 15px;
+    }
+    &.overseas .page-header p, &.domestic .page-header p {
+      font-size: 13px;
+      line-height: 20px;
+      font-weight: normal;
+    }
+    .page-header {
+      margin-bottom: 45px;
+    }
+    > section {
+      margin-bottom: 60px;
+    }
+    .section-header {
+      margin-bottom: 20px;
+    }
+    .chart {
+      padding: 25px 20px;
+      border: 1px solid #eaeaea;
+      margin-bottom: 20px;
+      background-color: #f7f7f7;
+      > figure > img {
+        margin: 0 auto;
+      }
+    }
+    .figure {
+      margin-bottom: 15px;
+      figure {
+        margin-bottom: 15px;
+        > {
+          img {
+            width: 100%;
+            margin-bottom: 5px;
+          }
+          figcaption > strong {
+            font-size: 14px;
+            line-height: 22px;
+            color: #f26522;
+          }
+        }
+      }
+    }
+    .list {
+      margin-bottom: 25px;
+      > ul > li {
+        position: relative;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        > {
+          .dot {
+            position: absolute;
+            top: 9px;
+            left: 0;
+            width: 3px;
+            height: 3px;
+            background-color: #f26522;
+          }
+          strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            line-height: 22px;
+            color: #f26522;
+          }
+          p {
+            margin-bottom: 0;
+            color: #777;
+          }
+        }
+      }
+      &.no-title > ul > li > .dot {
+        top: 7px;
+      }
+    }
+    > .steps {
+      margin-bottom: 20px;
+      > ol {
+        font-size: 0;
+        > li {
+          display: inline-block;
+          padding-right: 20px;
+          margin-bottom: 10px;
+          background-image: url(/images/sponsor/ico_arrow_right.gif);
+          background-repeat: no-repeat;
+          background-position: 92px 50%;
+          background-size: 8% auto;
+          > div {
+            overflow: hidden;
+            width: 85px;
+            height: 85px;
+            padding-top: 25px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 11px;
+            line-height: 13px;
+            color: #fff;
+            > {
+              strong {
+                display: block;
+                margin-bottom: 3px;
+              }
+              p {
+                margin-bottom: 0;
+                font-weight: bold;
+                > i {
+                  font-weight: normal;
+                  font-style: normal;
+                }
+              }
+            }
+          }
+          &:nth-of-type(odd) > div {
+            background-color: #f99d1c;
+          }
+          &:nth-of-type(even) > div {
+            background-color: #54627c;
+          }
+          &:last-child {
+            padding-right: 0;
+            background-image: none;
+          }
+        }
+      }
+    }
+    .btn-area > p {
+      text-align: left;
+      > .btn {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+  &.overseas > {
+    .country {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 0;
+      &:nth-of-type(1) {
+        border-top: 1px solid #ccc;
+      }
+      > {
+        h2 {
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: bold;
+          > i {
+            margin-left: 10px;
+            font-style: normal;
+            color: #f26522;
+          }
+        }
+        div > .table {
+          table-layout: fixed;
+          th, td {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border: 0;
+          }
+          th {
+            width: 15%;
+            padding-left: 0;
+            padding-right: 0;
+          }
+          td {
+            width: 35%;
+            padding-left: 15px;
+            padding-right: 15px;
+            white-space: normal;
+            color: #777;
+          }
+        }
+      }
+    }
+    .btn-area {
+      margin-top: 30px;
+    }
+  }
+  &.domestic.business {
+    .page-header p:nth-of-type(1) {
+      margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 22px;
+      font-weight: bold;
+    }
+      .details {
+          color: #777;
+      }
+      .equip-list {
+          margin-top: 25px;
+          color: #234ea2;
+          @media (min-width: 1280px) {
+              margin-bottom: 150px;
+          }
+      }
+  }
+  &.children > {
+    .page-header > {
+      h1 {
+        margin-bottom: 15px;
+      }
+      p:nth-of-type(2) {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: normal;
+      }
+    }
+    .steps > ol {
+      width: 295px;
+      margin: 0 auto;
+      text-align: center;
+      > li:nth-of-type(3) {
+        padding-right: 0;
+        background-image: none;
+      }
+    }
+    .btn-area > p {
+      text-align: right;
+    }
+  }
+  &.story > {
+    .page-header {
+      margin-bottom: 25px;
+    }
+    .btn-area > p {
+      text-align: center;
+      font-size: 0;
+      > .btn {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+  }
+  &.guide > {
+    .nav {
+      > li {
+        display: table-cell;
+        width: 1%;
+        > a {
+          border-radius: 0;
+          border: 1px solid #ccc;
+          font-weight: bold;
+          color: #777;
+        }
+        &.active > a {
+          background-color: #234ea2;
+          border: 1px solid #234ea2;
+          color: #fff;
+        }
+      }
+      margin-bottom: 40px;
+    }
+    .tab-content > .tab-pane > section {
+      margin-bottom: 35px;
+      > {
+        .section-header > h2 {
+          line-height: 24px;
+        }
+        p > {
+          i, a {
+            font-style: normal;
+            color: #234ea2;
+          }
+        }
+        .help {
+          position: relative;
+          padding-left: 20px;
+          > {
+            i {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 16px;
+              height: 16px;
+              text-align: center;
+              background-color: #54627c;
+              color: #fff;
+            }
+            dl {
+              font-size: 0;
+              line-height: 18px;
+              > {
+                dt {
+                  display: inline;
+                  font-size: 13px;
+                  color: #234ea2;
+                  font-weight: normal;
+                }
+                dd {
+                  display: inline;
+                  font-size: 13px;
+                  color: #234ea2;
+                  white-space: normal;
+                  &.bar {
+                    margin-left: 3px;
+                    margin-right: 3px;
+                  }
+                  > ol {
+                    display: inline;
+                    > li {
+                      display: inline;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .list {
+          margin-bottom: 15px;
+          > ul > li {
+            margin-bottom: 3px;
+            > p {
+              color: #444;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship {
+    &.overseas .page-header > h1, &.domestic .page-header > h1 {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship {
+    &.overseas .page-header > p, &.domestic .page-header > p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .page-header {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship > section {
+    margin-bottom: 75px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .section-header {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .chart {
+    padding: 60px 80px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .figure {
+    margin-bottom: 25px;
+    > .row {
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1280px) {
+  #content.relationship .figure > .row {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .figure > .row > div {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1280px) {
+  #content.relationship .figure > .row > div {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .figure figure {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .figure figure > figcaption > strong {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .list {
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .list > ul > li {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .list > ul > li > strong {
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .list.no-title > ul > li {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship .list.no-title > ul > li > .dot {
+    top: 9px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship > .steps {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship > .steps > ol > li > div > strong {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship > .steps > ol > li > div > p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship > .steps > ol > li > div {
+    width: 120px;
+    height: 120px;
+    padding-top: 36px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content.relationship > .steps > ol > li > div {
+    width: 150px;
+    height: 150px;
+    padding-top: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.relationship > .steps > ol > li {
+    padding-right: 25px;
+    background-position: 126px 50%;
+    background-size: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content.relationship > .steps > ol > li {
+    padding-right: 30px;
+    background-position: 159px 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content.overseas {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.overseas > .country > h2 {
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.overseas > .country > div {
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.overseas > .country > div > .table {
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.overseas > .country > div > .table th {
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.overseas > .country > div > .table td {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.overseas > .btn-area {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content.domestic.business {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.domestic.business .page-header p:nth-of-type(1) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.domestic.business .map {
+    float: right;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content.domestic.business .map {
+    margin-top: -60px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.domestic.business .list > ul > li {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.domestic.business .list > ul > li > strong {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content.children {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.children > .page-header > h1 {
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.children > .page-header > p:nth-of-type(2) {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.children > .steps > ol {
+    width: 700px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.children > .steps > ol {
+    width: 865px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.children > .steps > ol > li:nth-of-type(3) {
+    padding-right: 25px;
+    background-image: url(/images/sponsor/ico_arrow_right.gif);
+  }
+}
+
+@media (min-width: 768px) {
+  #content.story > .page-header {
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content.story > .page-header {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.story > .btn-area > p > .btn {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.story > .btn-area > p {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1280px) {
+  #content.guide {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .nav > li > a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .nav {
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .tab-content > .tab-pane > section {
+    margin-bottom: 55px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .tab-content > .tab-pane > section > .section-header {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .tab-content > .tab-pane > section > p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .tab-content > .tab-pane > section > .help {
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .tab-content > .tab-pane > section > .help > i {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .tab-content > .tab-pane > section > .help > dl > dt {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .tab-content > .tab-pane > section > .help > dl > dd {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  #content.guide > .tab-content > .tab-pane > section > .list > ul > li > p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
 
 
 
