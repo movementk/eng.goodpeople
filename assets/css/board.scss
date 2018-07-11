@@ -1,0 +1,479 @@
+/*
+ * @설명: 서브페이지에 있는 게시판들의 공통 스타일
+ * @게시판 종류
+ *  - 일반게시판: .board
+ *  - 웹진: .webzine
+ *  - 미디어(포토, 영상): .gallery
+ */
+
+
+
+/*
+ * 일반 게시판 스타일
+ */
+
+// 공통
+.board {
+    .table-responsive {
+        border: 0;
+        margin-bottom: 0;
+    }
+    .partner {
+        > thead > tr > th > label,
+        > tbody > tr > th > label,
+        > tfoot > tr > th > label{
+            padding-left:10px;
+        }
+    }
+    .table {
+        margin-bottom: 0;
+        border-top: 2px solid #234ea2;
+        > caption {
+            padding-bottom: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #555;
+            @media (min-width: 768px) {
+                padding-bottom: 10px;
+                font-size: 22px;
+            }
+        }
+        > thead > tr > th,
+        > thead > tr > td,
+        > tbody > tr > th,
+        > tbody > tr > td,
+        > tfoot > tr > th,
+        > tfoot > tr > td {
+            padding: 10px;
+            border-top: 0;
+            border-bottom: 1px solid #ccc;
+            font-size: 13px;
+            line-height: 24px;
+        }
+        > thead > tr > th,
+        > tbody > tr > th,
+        > tfoot > tr > th {
+            color: #333;
+            @media (min-width: 768px) {
+                font-size: 15px;
+            }
+        }
+        > thead > tr > td,
+        > tbody > tr > td,
+        > tfoot > tr > td {
+            color: #555;
+            @media (min-width: 768px) {
+                font-size: 14px;
+            }
+        }
+    }
+    .responsive-help {
+        margin-top: 10px;
+        color: #777;
+        font-size: 13px;
+    }
+    &.list > thead > tr > th,
+    &.list > tbody > tr > th,
+    &.list > tfoot > tr > th,
+    &.list > thead > tr > td,
+    &.list > tbody > tr > td,
+    &.list > tfoot > tr > td {
+        text-align: center;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+    &.write > thead > tr > th,
+    &.write > tbody > tr > th,
+    &.write > tfoot > tr > th {
+        width: 100px;
+        min-width: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #f7f7f7;
+        vertical-align: middle;
+        @media (min-width: 768px) {
+            width: 160px;
+            min-width: 160px;
+        }
+    }
+    dl.inline {
+        overflow: hidden;
+        color: #777;
+        > dt {
+            float: left;
+            font-weight: normal;
+            line-height: 24px;
+        }
+        > dd {
+            float: left;
+            line-height: 24px;
+            &.bar {
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+        }
+    }
+    input[type="text"].title {
+        width: 100%;
+        min-width: 100%;
+    }
+    input[type="text"].writer {
+        width: 150px;
+        min-width: 150px;
+    }
+    select {
+        height: 30px;
+    }
+}
+
+// 목록
+.board.list {
+    margin-bottom: 40px;
+    .title {
+        > a {
+            display: block;
+            color: #777;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-align: left;
+        }
+    }
+}
+
+// 보기
+.board.view {
+    margin-bottom: 40px;
+    .date {
+        width: 150px;
+        @media (min-width: 768px) {
+            width: 200px;
+        }
+    }
+    .details {
+        > .attachments {
+            text-align: right;
+            > li {
+                > a {
+                    color: #686868;
+                    font-size: 12px;
+                    text-decoration: underline;
+                    @media (min-width: 768px) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        > div {
+            min-height: 200px;
+        }
+        > .btn-area {
+            min-height: auto;
+            > p {
+                text-align: center !important;
+            }
+            .btn {
+                margin-left: 5px !important;
+                margin-right: 5px !important;
+                border-radius: 5px;
+                color: #fff;
+                height: 40px;
+                @media (min-width: 768px) {
+                    height: 50px !important;
+                    line-height: 36px !important;
+                }
+            }
+            .btn-rel-details {
+                background-color: #f99d1c;
+                border-color: #f99d1c;
+            }
+            .btn-rel-sponsor {
+                background-color: #f26522;
+                border-color: #f26522;
+            }
+        }
+    }
+}
+
+// 쓰기
+.board.write {
+    margin-bottom: 40px;
+}
+
+
+
+/*
+ * 웹진 스타일
+ */
+
+// 공통
+.webzine {
+    border-top: 2px solid #234ea2;
+    margin-bottom: 30px;
+    @media (min-width: 768px) {
+        margin-bottom: 40px;
+    }
+    .overview {
+        padding: 20px 0 0;
+        border-bottom: 1px solid #ccc;
+        @media (min-width: 768px) {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        > .row {
+            @media (min-width: 768px) {
+                margin-left: -22px;
+                margin-right: -22px;
+            }
+            @media (min-width: 1280px) {
+                margin-left: -15px;
+                margin-right: -15px;
+            }
+        }
+        figure {
+            > img {
+                width: 100%;
+            }
+        }
+        .details {
+            padding: 15px 10px;
+            @media (min-width: 768px) {
+                padding: 0 0 0 20px;
+            }
+            > p {
+                margin-bottom: 0;
+                &.lead {
+                    margin-bottom: 10px;
+                    line-height: normal;
+                    font-size: 15px;
+                    line-height: 22px;
+                    font-weight: normal;
+                    color: #333;
+                    > .flag-icon {
+                        margin-left: 5px;
+                    }
+                    > .label {
+                        width: 50px;
+                        height: 20px;
+                        font-size: 13px;
+                        border-radius: 0;
+                        background-color: #234ea2;
+                        &.label-done {
+                            border: 1px solid #ccc;
+                            background-color: #fff;
+                            color: #555;
+                        }
+                    }
+                }
+                &.summary {
+                    font-size: 13px;
+                    line-height: 22px;
+                    color: #777;
+                    @media (min-width: 768px) {
+                        margin-bottom: 20px;
+                        font-size: 14px;
+                    }
+                }
+                &.date {
+                    display: none;
+                    @media (min-width: 768px) {
+                        display: block;
+                        color: #777;
+                        font-size: 13px;
+                    }
+                }
+            }
+            > h2 {
+                color: #333;
+                margin-top: 0;
+                margin-bottom: 5px;
+                font-size: 15px;
+                line-height: 22px;
+                > a {
+                    color: #333;
+                }
+            }
+        }
+    }
+    .tabs {
+        > ul {
+            > li {
+                float: left;
+                width: 50%;
+                margin-left: 0;
+                > a {
+                    height: 40px;
+                    margin-bottom: 0;
+                    border-radius: 0;
+                    color: #234ea2;
+                    border-top: 1px solid #ccc;
+                    border-left: 1px solid #ccc;
+                    border-right: 1px solid #ccc;
+                }
+                &.active {
+                    > a {
+                        background-color: #234ea2;
+                        color: #fff;
+                        border-color: #234ea2;
+                    }
+                }
+            }
+        }
+    }
+    .panel-header {
+        position: relative;
+        margin-top: 30px;
+        border-bottom: 1px solid #ccc;
+        @media (min-width: 768px) {
+            margin-top: 50px;
+        }
+        @media (min-width: 1280px) {
+            margin-top: 65px;
+        }
+        > h3 {
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 0;
+            color: #333;
+            font-size: 16px;
+            line-height: 50px;
+            @media (min-width: 768px) {
+                padding-left: 30px;
+                padding-right: 120px;
+                font-size: 18px;
+            }
+        }
+        > time {
+            display: none;
+            @media (min-width: 768px) {
+                display: block;
+                position: absolute;
+                right: 30px;
+                top: 0;
+                color: #777;
+                font-size: 14px;
+                line-height: 50px;
+            }
+        }
+    }
+    .panel-content {
+        border-bottom: 1px solid #ccc;
+        > div {
+            padding: 20px 10px;
+            color: #777;
+            font-size: 13px;
+            line-height: 24px;
+            @media (min-width: 768px) {
+                padding: 45px 30px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+// 보기
+.webzine.view {
+    .overview {
+        border-bottom: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/*
+ * 미디어(포토, 영상) 게시판
+ */
+
+// 공통
+.gallery {
+    border-top: 2px solid #234ea2;
+    margin-bottom: 30px;
+    @media (min-width: 768px) {
+        margin-bottom: 40px;
+    }
+    > .row {
+        padding-left: 0;
+        padding-right: 0;
+        @media (min-width: 1280px) {
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+        > div {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    .peice {
+        position: relative;
+        display: block;
+        margin-top: 20px;
+        @media (min-width: 768px) {
+            margin-top: 30px;
+        }
+        > .figure {
+            position: relative;
+            height: 150px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            @media (min-width: 768px) {
+                height: 200px;
+            }
+            @media (min-width: 1280px) {
+                height: 250px;
+            }
+            > p {
+                overflow: hidden;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 40px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 0;
+                line-height: 40px;
+                background-color: rgba(0, 0, 0, .8);
+                color: #fff;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-size: 13px;
+            }
+        }
+        > .cover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            > div {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 60px;
+                height: 60px;
+                margin-top: -30px;
+                margin-left: -30px;
+                font-size: 42px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+#information {
+    .modal-body {
+        > .comment {
+            padding: 15px 10px;
+            color: #777;
+            font-size: 13px;
+            line-height: 22px;  
+            @media (min-width: 768px) {
+                padding: 10px;
+                border: 0px solid #eaeaea;
+                background-color: #fff;
+            }
+        }
+    }
+}

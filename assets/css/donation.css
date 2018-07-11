@@ -1,0 +1,43 @@
+.donation {
+  color: #777; }
+  .donation .sharing {
+    font-family: 'Arial'; }
+  .donation .support {
+    margin-top: 30px;
+    font-family: 'Arial'; }
+    @media (min-width: 1280px) {
+      .donation .support {
+        margin-bottom: 150px; } }
+    .donation .support .contact dl {
+      margin-top: 30px;
+      color: #234ea2; }
+      .donation .support .contact dl dt {
+        float: left;
+        clear: left;
+        padding-left: 30px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-weight: normal;
+        background-repeat: no-repeat;
+        background-position: 0 50%; }
+        .donation .support .contact dl dt:nth-of-type(1) {
+          background-image: url(/assets/images/sponsor/ico_phone.gif); }
+        .donation .support .contact dl dt:nth-of-type(2) {
+          background-image: url(/assets/images/sponsor/ico_mail.gif); }
+      .donation .support .contact dl dd {
+        display: block;
+        margin-bottom: 10px; }
+        .donation .support .contact dl dd::before {
+          padding-right: 10px;
+          content: '|'; }
+      @media (min-width: 1280px) {
+        .donation .support .contact dl dt {
+          display: inline-block;
+          float: none;
+          clear: none; }
+          .donation .support .contact dl dt:nth-of-type(2) {
+            margin-left: 30px; }
+        .donation .support .contact dl dd {
+          display: inline-block; } }
+
+/*# sourceMappingURL=donation.css.map */

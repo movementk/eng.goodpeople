@@ -1,0 +1,712 @@
+/*
+ * @설명: 사업소개 메뉴의 하위 메뉴들에 대한 스타일
+ */
+
+// 공통
+#content.business {
+    .page-header {
+        margin-bottom: 50px;
+        @media (min-width: 768px) {
+            margin-bottom: 60px;
+        }
+        > h1 {
+            margin-bottom: 15px;
+            @media (min-width: 768px) {
+                margin-bottom: 30px;
+            }
+        }
+        > p {
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: normal;
+            @media (min-width: 768px) {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+    section {
+        margin-bottom: 50px;
+        @media (min-width: 768px) {
+            margin-bottom: 70px;
+        }
+    }
+    .section-header {
+        margin-bottom: 25px;
+    }
+    .figures {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        @media (min-width: 768px) {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .row {
+            @media (min-width: 768px) {
+                padding-left: 6px;
+                padding-right: 6px;
+            }
+            @media (min-width: 1280px) {
+                padding-left: 11px;
+                padding-right: 11px;
+            }
+            > div {
+                padding-top: 4px;
+                padding-bottom: 4px;
+                @media (min-width: 768px) {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                }
+                > p {
+                    margin-bottom: 0;
+                    > img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    p {
+        color: #444;
+        font-size: 13px;
+        line-height: 20px;
+        &.notify {
+            color: #234ea2;
+            font-size: 12px;
+            line-height: 18px;
+            @media (min-width: 768px) {
+                margin-bottom: 20px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+        &.link {
+            overflow: hidden;
+            > i {
+                float: left;
+                margin-right: 5px;
+                color: #54627c;
+                &::before {
+                    margin: 0;
+                    font-size: 28px;
+                    line-height: 28px;
+                }
+            }
+            > a {
+                float: left;
+                line-height: 31px;
+                color: #234ea2;
+                font-family: 'Arial';
+            }
+        }
+        &.project {
+            text-align: center;
+            color: #54627c;
+            @media (min-width: 768px) {
+                text-align: left;
+                font-size: 13px;
+                background-image: url(/assets/images/business/bg_arrow.gif);
+                background-repeat: no-repeat;
+                background-position: 185px 0;
+            }
+            > a {
+                display: block;
+                padding: 5px 0;
+                height: 30px;
+                margin-bottom: 15px;
+                background-color: #54627c;
+                color: #fff;
+                font-size: 12px;
+                > i {
+                    &::before {
+                        font-size: 20px;
+                        line-height: 20px;
+                        vertical-align: middle;
+                    }
+                }
+                @media (min-width: 768px) {
+                    display: inline-block;
+                    width: 185px;
+                    height: 35px;
+                    padding: 3px 10px;
+                    margin-right: 20px;
+                    margin-bottom: 0;
+                    line-height: 30px;
+                    font-size: 14px;
+                }
+            }
+        }
+        @media (min-width: 768px) {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+    ul.list {
+        > li {
+            position: relative;
+            padding-left: 13px;
+            margin-bottom: 5px;
+            font-size: 12px;
+            line-height: 18px;
+            color: #777;
+            @media (min-width: 768px) {
+                margin-bottom: 8px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            > i {
+                position: absolute;
+                left: 0;
+                top: 7px;
+                width: 3px;
+                height: 3px;
+                background-color: #f99d1c;
+                @media (min-width: 768px) {
+                    top: 9px;
+                }
+            }
+        }
+    }
+    ul.info {
+        > li {
+            margin-bottom: 5px;
+            @media (min-width: 768px) {
+                margin-bottom: 8px;
+            }
+            > dl {
+                > dt {
+                    display: inline;
+                    color: #234ea2;
+                    font-size: 12px;
+                    line-height: 18px;
+                    @media (min-width: 768px) {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                }
+                > dd {
+                    display: inline;
+                    color: #777;
+                    font-size: 12px;
+                    line-height: 18px;
+                    @media (min-width: 768px) {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+    .related {
+        padding-top: 25px;
+        background: url(/assets/images/business/bg_related_border.gif) repeat-x 0 0;
+        @media (min-width: 768px) {
+            padding-top: 40px;
+        }
+        .row {
+            @media (min-width: 768px) {
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+            @media (min-width: 1280px) {
+                padding-left: 7px;
+                padding-right: 7px;
+            }
+            > div {
+                margin-bottom: 25px;
+                @media (min-width: 768px) {
+                    padding-left: 8px;
+                    padding-right: 8px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        h2 {
+            margin-top: 0;
+            margin-bottom: 25px;
+            color: #444;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: bold;
+            @media (min-width: 768px) {
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+        figure {
+            > img {
+                width: 100%;
+            }
+        }
+        h3 {
+            color: #333;
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: bold;
+            @media (min-width: 768px) {
+                font-size: 15px;
+            }
+        }
+        p {
+            margin-bottom: 0;
+            color: #777;
+            font-size: 12px;
+            line-height: 18px;
+            @media (min-width: 768px) {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
+    ul.features {
+        > li {
+            position: relative;
+            margin-bottom: 20px;
+            > i.dot {
+                position: absolute;
+                top: 12px;
+                left: 0;
+                width: 3px;
+                height: 3px;
+                background-color: #f99d1c;
+            }
+            > strong {
+                padding-left: 10px;
+                color: #f26522;
+                font-size: 14px;
+                line-height: 26px;
+                @media (min-width: 768px) {
+                    font-size: 15px;
+                    line-height: 28px;
+                }
+            }
+            > p {
+                padding-left: 10px;
+                color: #777;
+                font-size: 13px;
+                line-height: 20px;
+                &.project {
+                    padding-left: 0;
+                }
+                @media (min-width: 768px) {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .diagram {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+        @media (min-width: 768px) {
+            margin-top: 50px;
+            margin-bottom: 70px;
+        }
+        img {
+            margin: 0 auto;
+        }
+    }
+    .record {
+        overflow: hidden;
+        @media (min-width: 1280px) {
+            margin-bottom: 100px;
+        }
+        > .year {
+            height: 174px;
+            margin-bottom: 25px;
+            background-image: url(/assets/images/business/bg_history_small.gif);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            @media (min-width: 768px) {
+                float: left;
+                width: 325px;
+                min-height: 647px;
+                background-image: url(/assets/images/business/bg_history_big.gif);
+                background-repeat: no-repeat;
+                background-position: 0 0;
+            }
+            > h2 {
+                font-size: 26px;
+                line-height: 130px;
+                text-align: center;
+                @media (min-width: 768px) {
+                    width: 152px;
+                    height: 152px;
+                    line-height: 152px;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        > .details {
+            @media (min-width: 768px) {
+                margin-top: 70px;
+                margin-left: 325px;
+            }
+            > section {
+                margin-bottom: 35px;
+                @media (min-width: 768px) {
+                    margin-bottom: 45px;
+                }
+                h3 {
+                    font-size: 15px;
+                    color: #444;
+                    font-weight: bold;
+                    @media (min-width: 768px) {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 굿피플해외봉사단
+#content.overseas.volunteers {
+    p.notify {
+        margin-top: 20px;
+        @media (min-width: 768px) {
+            margin-top: 30px;
+        }
+    }
+}
+
+// 국가별소개
+#content.overseas.coutry {
+    .type {
+        margin-bottom: 10px;
+        > ul {
+            overflow: hidden;
+            @media (min-width: 768px) {
+                text-align: right;
+            }
+            > li {
+                float: left;
+                width: 50%;
+                margin-bottom: 3px;
+                color: #777;
+                font-size: 12px;
+                line-height: 20px;
+                @media (min-width: 768px) {
+                    float: none;
+                    width: auto;
+                    margin-left: 10px;
+                    display: inline-block;
+                    font-size: 13px;
+                }
+                > i {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .board.list {
+        td {
+            text-align: left;
+            @media (min-width: 1280px) {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            &:nth-of-type(1) {
+                > span {
+                    margin-right: 5px;
+                }
+            }
+            &:nth-of-type(3) {
+                text-align: center;
+            }
+            > i {
+                color: #f26522;
+            }
+        }
+        .notify {
+            margin-top: 10px;
+            font-size: 12px;
+            line-height: 20px;
+            color: #777;
+            @media (min-width: 768px) {
+                margin-top: 15px;
+                font-size: 13px;
+                line-height: 22px;
+                text-align: right;
+            }
+            > i {
+                color: #f26522;
+            }
+        }
+    }
+    #country-information {
+        .modal-header {
+            > h4 {
+                > span {
+                    margin-right: 5px;
+                }
+            }
+        }
+        .modal-body {
+            padding: 10px;
+            @media (min-width: 768px) {
+                padding: 15px;
+            }
+            > .nav {
+                margin-bottom: 20px;
+                > li {
+                    position: relative;
+                    width: 50%;
+                    margin: 0;
+                    text-align: center;
+                    > a {
+                        height: 40px;
+                        border: 1px solid #ccc;
+                        border-radius: 0;
+                        color: #777;
+                        font-weight: bold;
+                        @media (min-width: 768px) {
+                            font-size: 16px;
+                        }
+                    }
+                    &.active {
+                        > a {
+                            border: 0;
+                            background-color: #234ea2;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            > .tab-content {
+                > .tab-pane {
+                    section {
+                        border-bottom: 1px solid #ccc;
+                        margin: 0;
+                    }
+                    p {
+                        margin-bottom: 15px;
+                        color: #777;
+                        line-height: 22px;
+                        @media (min-width: 768px) {
+                            font-size: 14px;
+                        }
+                    }
+                    .info {
+                        margin-bottom: 25px;
+                    }
+                    .details {
+                        padding: 10px;
+                        border: 1px solid #ebebeb;
+                        background-color: #f7f7f7;
+                        > p {
+                            margin-bottom: 20px;
+                            @media (min-width: 768px) {
+                                font-size: 13px;
+                            }
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
+                        } 
+                    }
+                    h5 {
+                        margin-bottom: 5px;
+                        color: #333;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    .figures {
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+                    ol.list {
+                        margin-bottom: 10px;
+                        @media (min-width: 768px) {
+                            margin-bottom: 20px;
+                        }
+                        > li {
+                            position: relative;
+                            font-size: 13px;
+                            line-height: 22px;
+                            color: #777;
+                            @media (min-width: 768px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 지역봉사실천사업
+#content.domestic.region {
+    p.project {
+        margin-top: 20px;
+        @media (min-width: 768px) {
+            margin-top: 25px;
+        }
+    }
+}
+
+// 미래시민교육
+#content.domestic.education {
+    .trauma {
+        .section-header + p {
+            margin-bottom: 20px;
+            @media (min-width: 768px) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+// 자유시민대학
+#content.domestic.colleage {
+    .page-header {
+        .link {
+            margin-top: 15px;
+        }
+    }
+    .table {
+        th:nth-of-type(1),
+        td:nth-of-type(1),
+        th:nth-of-type(3),
+        td:nth-of-type(3){
+            width: 80px;
+            @media (min-width: 768px) {
+                width: 200px;
+            }
+        }
+    }
+}
+
+// 북한활동 > 보건의료사업
+#content.northkorea.medical,
+#content.northkorea.regional {
+    .page-header {
+        > p {
+            margin-bottom: 20px;
+            @media (min-width: 768px) {
+                margin-bottom: 30px;
+            }
+        }
+        > .figures {
+            > .row {
+                padding-left: 6px;
+                padding-right: 6px;
+                @media (min-width: 1280px) {
+                    padding-left: 11px;
+                    padding-right: 11px;
+                }
+                > div {
+                    padding-left: 4px;
+                    padding-right: 4px;
+                }
+            }
+        }
+    }
+}
+
+// 북한활동 > 지역개발사업
+#content.northkorea.regional {
+    ul.info {
+        margin-top: 10px;
+        @media (min-width: 768px) {
+            margin-top: 20px;
+        }
+    }
+}
+
+// 긴급구호 > 소개
+#content.emergency.introduce {
+    .overview {
+        .steps {
+            margin-bottom: 70px;
+            @media (min-width: 768px) {
+                margin-bottom: 80px;
+                .row {
+                    > div {
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+        .step {
+            padding-top: 65px;
+            background-image: url(/assets/images/business/ico_arrow_down.gif);
+            background-position: 50% 25px;
+            background-repeat: no-repeat;
+            @media (min-width: 768px) {
+                padding-top: 0;
+                padding-left: 25px;
+                padding-right: 25px;
+                background-image: url(/assets/images/business/ico_arrow_right.gif);
+                background-position: 0 60px;
+            }
+            > h2 {
+                width: 148px;
+                height: 148px;
+                color: #fff;
+                padding: 50px 0;
+                margin: 0 auto 15px;
+                border-radius: 50%;
+                background-color: #f99d1c;
+                font-size: 18px;
+                line-height: 24px;
+                text-align: center;
+                @media (min-width: 768px) {
+                    margin-bottom: 30px;
+                }
+            }
+            > p {
+                min-width: 240px;
+                max-width: 400px;
+                margin: 0 auto;
+                font-size: 14px;
+                line-height: 22px;
+                color: #777;
+                text-align: center;
+                @media (min-width: 768px) {
+                    min-width: 150px;
+                    max-width: 250px;
+                }
+            }
+        }
+        .step1 {
+            padding-top: 0;
+            background-image: none;
+        }
+        .step2 {
+            > h2 {
+                padding: 62px 0;
+                background-color: #54627c;
+            }
+        }
+    }
+    .figures {
+        @media (min-width: 1280px) {
+            margin-bottom: 100px;
+        }
+    }
+}
+
+// 긴급구호 > 공통
+#content.emergency {
+    .category-nav {
+        margin-bottom: 30px;
+        @media (min-width: 768px) {
+            margin-bottom: 60px;
+            text-align: left;
+            > .btn {
+                width: 300px;
+            }
+            > .dropdown-menu {
+                left: 0;
+                width: 300px;
+            }
+        }
+    }
+}

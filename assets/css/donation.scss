@@ -1,0 +1,56 @@
+.donation {
+    color: #777;
+    .sharing {
+        font-family: 'Arial';
+    }
+    .support {
+        margin-top: 30px;
+        font-family: 'Arial';
+        @media (min-width: 1280px) {
+            margin-bottom: 150px;
+        }
+        .contact {
+            dl {
+                margin-top: 30px;
+                color: #234ea2;
+                dt {
+                    float: left;
+                    clear: left;
+                    padding-left: 30px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    font-weight: normal;
+                    background-repeat: no-repeat;
+                    background-position: 0 50%;
+                    &:nth-of-type(1) {
+                        background-image: url(/assets/images/sponsor/ico_phone.gif);
+                    }
+                    &:nth-of-type(2) {
+                        background-image: url(/assets/images/sponsor/ico_mail.gif);
+                    }
+                }
+                dd {
+                    display: block;
+                    margin-bottom: 10px;
+                    &::before {
+                        padding-right: 10px;
+                        content: '|';
+                    }
+                }
+                @media (min-width: 1280px) {
+                    dt {
+                        display: inline-block;
+                        float: none;
+                        clear: none;
+                        &:nth-of-type(2) {
+                            margin-left: 30px;
+                        }
+                    }
+                    dd {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}

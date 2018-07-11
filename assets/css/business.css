@@ -1,0 +1,551 @@
+@charset "UTF-8";
+/*
+ * @설명: 사업소개 메뉴의 하위 메뉴들에 대한 스타일
+ */
+#content.business .page-header {
+  margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    #content.business .page-header {
+      margin-bottom: 60px; } }
+  #content.business .page-header > h1 {
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      #content.business .page-header > h1 {
+        margin-bottom: 30px; } }
+  #content.business .page-header > p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal; }
+    @media (min-width: 768px) {
+      #content.business .page-header > p {
+        font-size: 16px;
+        line-height: 26px; } }
+#content.business section {
+  margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    #content.business section {
+      margin-bottom: 70px; } }
+#content.business .section-header {
+  margin-bottom: 25px; }
+#content.business .figures {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    #content.business .figures {
+      margin-top: 25px;
+      margin-bottom: 25px; } }
+  @media (min-width: 768px) {
+    #content.business .figures .row {
+      padding-left: 6px;
+      padding-right: 6px; } }
+  @media (min-width: 1280px) {
+    #content.business .figures .row {
+      padding-left: 11px;
+      padding-right: 11px; } }
+  #content.business .figures .row > div {
+    padding-top: 4px;
+    padding-bottom: 4px; }
+    @media (min-width: 768px) {
+      #content.business .figures .row > div {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 4px;
+        padding-right: 4px; } }
+    #content.business .figures .row > div > p {
+      margin-bottom: 0; }
+      #content.business .figures .row > div > p > img {
+        width: 100%; }
+#content.business p {
+  color: #444;
+  font-size: 13px;
+  line-height: 20px; }
+  #content.business p.notify {
+    color: #234ea2;
+    font-size: 12px;
+    line-height: 18px; }
+    @media (min-width: 768px) {
+      #content.business p.notify {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 22px; } }
+  #content.business p.link {
+    overflow: hidden; }
+    #content.business p.link > i {
+      float: left;
+      margin-right: 5px;
+      color: #54627c; }
+      #content.business p.link > i::before {
+        margin: 0;
+        font-size: 28px;
+        line-height: 28px; }
+    #content.business p.link > a {
+      float: left;
+      line-height: 31px;
+      color: #234ea2;
+      font-family: 'Arial'; }
+  #content.business p.project {
+    text-align: center;
+    color: #54627c; }
+    @media (min-width: 768px) {
+      #content.business p.project {
+        text-align: left;
+        font-size: 13px;
+        background-image: url(/assets/images/business/bg_arrow.gif);
+        background-repeat: no-repeat;
+        background-position: 185px 0; } }
+    #content.business p.project > a {
+      display: block;
+      padding: 5px 0;
+      height: 30px;
+      margin-bottom: 15px;
+      background-color: #54627c;
+      color: #fff;
+      font-size: 12px; }
+      #content.business p.project > a > i::before {
+        font-size: 20px;
+        line-height: 20px;
+        vertical-align: middle; }
+      @media (min-width: 768px) {
+        #content.business p.project > a {
+          display: inline-block;
+          width: 185px;
+          height: 35px;
+          padding: 3px 10px;
+          margin-right: 20px;
+          margin-bottom: 0;
+          line-height: 30px;
+          font-size: 14px; } }
+  @media (min-width: 768px) {
+    #content.business p {
+      font-size: 16px;
+      line-height: 26px; } }
+#content.business ul.list > li {
+  position: relative;
+  padding-left: 13px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #777; }
+  @media (min-width: 768px) {
+    #content.business ul.list > li {
+      margin-bottom: 8px;
+      font-size: 14px;
+      line-height: 22px; } }
+  #content.business ul.list > li > i {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 3px;
+    height: 3px;
+    background-color: #f99d1c; }
+    @media (min-width: 768px) {
+      #content.business ul.list > li > i {
+        top: 9px; } }
+#content.business ul.info > li {
+  margin-bottom: 5px; }
+  @media (min-width: 768px) {
+    #content.business ul.info > li {
+      margin-bottom: 8px; } }
+  #content.business ul.info > li > dl > dt {
+    display: inline;
+    color: #234ea2;
+    font-size: 12px;
+    line-height: 18px; }
+    @media (min-width: 768px) {
+      #content.business ul.info > li > dl > dt {
+        font-size: 14px;
+        line-height: 22px; } }
+  #content.business ul.info > li > dl > dd {
+    display: inline;
+    color: #777;
+    font-size: 12px;
+    line-height: 18px; }
+    @media (min-width: 768px) {
+      #content.business ul.info > li > dl > dd {
+        font-size: 14px;
+        line-height: 22px; } }
+#content.business .related {
+  padding-top: 25px;
+  background: url(/assets/images/business/bg_related_border.gif) repeat-x 0 0; }
+  @media (min-width: 768px) {
+    #content.business .related {
+      padding-top: 40px; } }
+  @media (min-width: 768px) {
+    #content.business .related .row {
+      padding-left: 2px;
+      padding-right: 2px; } }
+  @media (min-width: 1280px) {
+    #content.business .related .row {
+      padding-left: 7px;
+      padding-right: 7px; } }
+  #content.business .related .row > div {
+    margin-bottom: 25px; }
+    @media (min-width: 768px) {
+      #content.business .related .row > div {
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-bottom: 0; } }
+  #content.business .related h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold; }
+    @media (min-width: 768px) {
+      #content.business .related h2 {
+        font-size: 18px;
+        line-height: 28px; } }
+  #content.business .related figure > img {
+    width: 100%; }
+  #content.business .related h3 {
+    color: #333;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold; }
+    @media (min-width: 768px) {
+      #content.business .related h3 {
+        font-size: 15px; } }
+  #content.business .related p {
+    margin-bottom: 0;
+    color: #777;
+    font-size: 12px;
+    line-height: 18px; }
+    @media (min-width: 768px) {
+      #content.business .related p {
+        font-size: 14px;
+        line-height: 20px; } }
+#content.business ul.features > li {
+  position: relative;
+  margin-bottom: 20px; }
+  #content.business ul.features > li > i.dot {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 3px;
+    height: 3px;
+    background-color: #f99d1c; }
+  #content.business ul.features > li > strong {
+    padding-left: 10px;
+    color: #f26522;
+    font-size: 14px;
+    line-height: 26px; }
+    @media (min-width: 768px) {
+      #content.business ul.features > li > strong {
+        font-size: 15px;
+        line-height: 28px; } }
+  #content.business ul.features > li > p {
+    padding-left: 10px;
+    color: #777;
+    font-size: 13px;
+    line-height: 20px; }
+    #content.business ul.features > li > p.project {
+      padding-left: 0; }
+    @media (min-width: 768px) {
+      #content.business ul.features > li > p {
+        font-size: 14px;
+        line-height: 24px; } }
+#content.business .diagram {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #content.business .diagram {
+      margin-top: 50px;
+      margin-bottom: 70px; } }
+  #content.business .diagram img {
+    margin: 0 auto; }
+#content.business .record {
+  overflow: hidden; }
+  @media (min-width: 1280px) {
+    #content.business .record {
+      margin-bottom: 100px; } }
+  #content.business .record > .year {
+    height: 174px;
+    margin-bottom: 25px;
+    background-image: url(/assets/images/business/bg_history_small.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 0; }
+    @media (min-width: 768px) {
+      #content.business .record > .year {
+        float: left;
+        width: 325px;
+        min-height: 647px;
+        background-image: url(/assets/images/business/bg_history_big.gif);
+        background-repeat: no-repeat;
+        background-position: 0 0; } }
+    #content.business .record > .year > h2 {
+      font-size: 26px;
+      line-height: 130px;
+      text-align: center; }
+      @media (min-width: 768px) {
+        #content.business .record > .year > h2 {
+          width: 152px;
+          height: 152px;
+          line-height: 152px;
+          margin-top: 0;
+          margin-bottom: 0; } }
+  @media (min-width: 768px) {
+    #content.business .record > .details {
+      margin-top: 70px;
+      margin-left: 325px; } }
+  #content.business .record > .details > section {
+    margin-bottom: 35px; }
+    @media (min-width: 768px) {
+      #content.business .record > .details > section {
+        margin-bottom: 45px; } }
+    #content.business .record > .details > section h3 {
+      font-size: 15px;
+      color: #444;
+      font-weight: bold; }
+      @media (min-width: 768px) {
+        #content.business .record > .details > section h3 {
+          margin-bottom: 15px; } }
+
+#content.overseas.volunteers p.notify {
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    #content.overseas.volunteers p.notify {
+      margin-top: 30px; } }
+
+#content.overseas.coutry .type {
+  margin-bottom: 10px; }
+  #content.overseas.coutry .type > ul {
+    overflow: hidden; }
+    @media (min-width: 768px) {
+      #content.overseas.coutry .type > ul {
+        text-align: right; } }
+    #content.overseas.coutry .type > ul > li {
+      float: left;
+      width: 50%;
+      margin-bottom: 3px;
+      color: #777;
+      font-size: 12px;
+      line-height: 20px; }
+      @media (min-width: 768px) {
+        #content.overseas.coutry .type > ul > li {
+          float: none;
+          width: auto;
+          margin-left: 10px;
+          display: inline-block;
+          font-size: 13px; } }
+      #content.overseas.coutry .type > ul > li > i {
+        margin-right: 5px; }
+#content.overseas.coutry .board.list td {
+  text-align: left; }
+  @media (min-width: 1280px) {
+    #content.overseas.coutry .board.list td {
+      padding-left: 50px;
+      padding-right: 50px; } }
+  #content.overseas.coutry .board.list td:nth-of-type(1) > span {
+    margin-right: 5px; }
+  #content.overseas.coutry .board.list td:nth-of-type(3) {
+    text-align: center; }
+  #content.overseas.coutry .board.list td > i {
+    color: #f26522; }
+#content.overseas.coutry .board.list .notify {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #777; }
+  @media (min-width: 768px) {
+    #content.overseas.coutry .board.list .notify {
+      margin-top: 15px;
+      font-size: 13px;
+      line-height: 22px;
+      text-align: right; } }
+  #content.overseas.coutry .board.list .notify > i {
+    color: #f26522; }
+#content.overseas.coutry #country-information .modal-header > h4 > span {
+  margin-right: 5px; }
+#content.overseas.coutry #country-information .modal-body {
+  padding: 10px; }
+  @media (min-width: 768px) {
+    #content.overseas.coutry #country-information .modal-body {
+      padding: 15px; } }
+  #content.overseas.coutry #country-information .modal-body > .nav {
+    margin-bottom: 20px; }
+    #content.overseas.coutry #country-information .modal-body > .nav > li {
+      position: relative;
+      width: 50%;
+      margin: 0;
+      text-align: center; }
+      #content.overseas.coutry #country-information .modal-body > .nav > li > a {
+        height: 40px;
+        border: 1px solid #ccc;
+        border-radius: 0;
+        color: #777;
+        font-weight: bold; }
+        @media (min-width: 768px) {
+          #content.overseas.coutry #country-information .modal-body > .nav > li > a {
+            font-size: 16px; } }
+      #content.overseas.coutry #country-information .modal-body > .nav > li.active > a {
+        border: 0;
+        background-color: #234ea2;
+        color: #fff; }
+  #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane section {
+    border-bottom: 1px solid #ccc;
+    margin: 0; }
+  #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane p {
+    margin-bottom: 15px;
+    color: #777;
+    line-height: 22px; }
+    @media (min-width: 768px) {
+      #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane p {
+        font-size: 14px; } }
+  #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane .info {
+    margin-bottom: 25px; }
+  #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane .details {
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    background-color: #f7f7f7; }
+    #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane .details > p {
+      margin-bottom: 20px; }
+      @media (min-width: 768px) {
+        #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane .details > p {
+          font-size: 13px; } }
+      #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane .details > p:last-child {
+        margin-bottom: 0; }
+  #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane h5 {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold; }
+  #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane .figures p {
+    margin-bottom: 0; }
+  #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane ol.list {
+    margin-bottom: 10px; }
+    @media (min-width: 768px) {
+      #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane ol.list {
+        margin-bottom: 20px; } }
+    #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane ol.list > li {
+      position: relative;
+      font-size: 13px;
+      line-height: 22px;
+      color: #777; }
+      @media (min-width: 768px) {
+        #content.overseas.coutry #country-information .modal-body > .tab-content > .tab-pane ol.list > li {
+          font-size: 14px; } }
+
+#content.domestic.region p.project {
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    #content.domestic.region p.project {
+      margin-top: 25px; } }
+
+#content.domestic.education .trauma .section-header + p {
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    #content.domestic.education .trauma .section-header + p {
+      margin-bottom: 30px; } }
+
+#content.domestic.colleage .page-header .link {
+  margin-top: 15px; }
+#content.domestic.colleage .table th:nth-of-type(1),
+#content.domestic.colleage .table td:nth-of-type(1),
+#content.domestic.colleage .table th:nth-of-type(3),
+#content.domestic.colleage .table td:nth-of-type(3) {
+  width: 80px; }
+  @media (min-width: 768px) {
+    #content.domestic.colleage .table th:nth-of-type(1),
+    #content.domestic.colleage .table td:nth-of-type(1),
+    #content.domestic.colleage .table th:nth-of-type(3),
+    #content.domestic.colleage .table td:nth-of-type(3) {
+      width: 200px; } }
+
+#content.northkorea.medical .page-header > p,
+#content.northkorea.regional .page-header > p {
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    #content.northkorea.medical .page-header > p,
+    #content.northkorea.regional .page-header > p {
+      margin-bottom: 30px; } }
+#content.northkorea.medical .page-header > .figures > .row,
+#content.northkorea.regional .page-header > .figures > .row {
+  padding-left: 6px;
+  padding-right: 6px; }
+  @media (min-width: 1280px) {
+    #content.northkorea.medical .page-header > .figures > .row,
+    #content.northkorea.regional .page-header > .figures > .row {
+      padding-left: 11px;
+      padding-right: 11px; } }
+  #content.northkorea.medical .page-header > .figures > .row > div,
+  #content.northkorea.regional .page-header > .figures > .row > div {
+    padding-left: 4px;
+    padding-right: 4px; }
+
+#content.northkorea.regional ul.info {
+  margin-top: 10px; }
+  @media (min-width: 768px) {
+    #content.northkorea.regional ul.info {
+      margin-top: 20px; } }
+
+#content.emergency.introduce .overview .steps {
+  margin-bottom: 70px; }
+  @media (min-width: 768px) {
+    #content.emergency.introduce .overview .steps {
+      margin-bottom: 80px; }
+      #content.emergency.introduce .overview .steps .row > div {
+        padding-left: 0;
+        padding-right: 0; } }
+#content.emergency.introduce .overview .step {
+  padding-top: 65px;
+  background-image: url(/assets/images/business/ico_arrow_down.gif);
+  background-position: 50% 25px;
+  background-repeat: no-repeat; }
+  @media (min-width: 768px) {
+    #content.emergency.introduce .overview .step {
+      padding-top: 0;
+      padding-left: 25px;
+      padding-right: 25px;
+      background-image: url(/assets/images/business/ico_arrow_right.gif);
+      background-position: 0 60px; } }
+  #content.emergency.introduce .overview .step > h2 {
+    width: 148px;
+    height: 148px;
+    color: #fff;
+    padding: 50px 0;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background-color: #f99d1c;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #content.emergency.introduce .overview .step > h2 {
+        margin-bottom: 30px; } }
+  #content.emergency.introduce .overview .step > p {
+    min-width: 240px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #content.emergency.introduce .overview .step > p {
+        min-width: 150px;
+        max-width: 250px; } }
+#content.emergency.introduce .overview .step1 {
+  padding-top: 0;
+  background-image: none; }
+#content.emergency.introduce .overview .step2 > h2 {
+  padding: 62px 0;
+  background-color: #54627c; }
+@media (min-width: 1280px) {
+  #content.emergency.introduce .figures {
+    margin-bottom: 100px; } }
+
+#content.emergency .category-nav {
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    #content.emergency .category-nav {
+      margin-bottom: 60px;
+      text-align: left; }
+      #content.emergency .category-nav > .btn {
+        width: 300px; }
+      #content.emergency .category-nav > .dropdown-menu {
+        left: 0;
+        width: 300px; } }
+
+/*# sourceMappingURL=business.css.map */

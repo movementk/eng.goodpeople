@@ -1,0 +1,62 @@
+.ci {
+  color: #777; }
+  .ci .symbol .figure {
+    width: 100%;
+    padding: 70px 60px 50px;
+    border: 1px solid #dfdfdf;
+    background-image: url(/images/introduce/bg_symbol_box.gif);
+    background-position: 50% 50%; }
+    .ci .symbol .figure img {
+      margin: 0 auto; }
+    .ci .symbol .figure .btn {
+      display: block;
+      width: 190px;
+      height: 40px !important;
+      margin: 60px auto 0;
+      background-color: #f99d1c;
+      border: 0;
+      border-radius: 20px;
+      line-height: 40px;
+      color: #fff;
+      font-family: 'Arial';
+      font-weight: bold;
+      font-size: 15px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+    @media (min-width: 1280px) {
+      .ci .symbol .figure {
+        padding: 50px; }
+        .ci .symbol .figure .btn {
+          margin-top: 40px;
+          width: 220px; } }
+  .ci .symbol .summary {
+    font-family: 'Arial'; }
+    .ci .symbol .summary h3 {
+      margin-top: 40px;
+      margin-bottom: 5px;
+      font-size: 18px;
+      color: #444;
+      font-weight: bold; }
+    .ci .symbol .summary strong {
+      font-size: 16px;
+      color: #444;
+      font-weight: normal; }
+    .ci .symbol .summary p {
+      margin-top: 20px;
+      font-size: 14px; }
+    @media (min-width: 1280px) {
+      .ci .symbol .summary h3 {
+        font-size: 20px; }
+      .ci .symbol .summary strong {
+        font-size: 20px; }
+      .ci .symbol .summary p {
+        font-size: 15px; } }
+  .ci .emblem {
+    margin-top: 50px;
+    margin-bottom: 100px; }
+    .ci .emblem .list img {
+      margin: 25px auto 0 !important; }
+    @media (min-width: 1280px) {
+      .ci .emblem {
+        margin-bottom: 200px; } }
+
+/*# sourceMappingURL=intro_ci.css.map */

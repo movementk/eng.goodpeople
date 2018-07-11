@@ -1,0 +1,375 @@
+@charset "UTF-8";
+/*
+ * @설명: 서브페이지에 있는 게시판들의 공통 스타일
+ * @게시판 종류
+ *  - 일반게시판: .board
+ *  - 웹진: .webzine
+ *  - 미디어(포토, 영상): .gallery
+ */
+/*
+ * 일반 게시판 스타일
+ */
+.board .table-responsive {
+  border: 0;
+  margin-bottom: 0; }
+.board .partner > thead > tr > th > label,
+.board .partner > tbody > tr > th > label,
+.board .partner > tfoot > tr > th > label {
+  padding-left: 10px; }
+.board .table {
+  margin-bottom: 0;
+  border-top: 2px solid #234ea2; }
+  .board .table > caption {
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555; }
+    @media (min-width: 768px) {
+      .board .table > caption {
+        padding-bottom: 10px;
+        font-size: 22px; } }
+  .board .table > thead > tr > th,
+  .board .table > thead > tr > td,
+  .board .table > tbody > tr > th,
+  .board .table > tbody > tr > td,
+  .board .table > tfoot > tr > th,
+  .board .table > tfoot > tr > td {
+    padding: 10px;
+    border-top: 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    line-height: 24px; }
+  .board .table > thead > tr > th,
+  .board .table > tbody > tr > th,
+  .board .table > tfoot > tr > th {
+    color: #333; }
+    @media (min-width: 768px) {
+      .board .table > thead > tr > th,
+      .board .table > tbody > tr > th,
+      .board .table > tfoot > tr > th {
+        font-size: 15px; } }
+  .board .table > thead > tr > td,
+  .board .table > tbody > tr > td,
+  .board .table > tfoot > tr > td {
+    color: #555; }
+    @media (min-width: 768px) {
+      .board .table > thead > tr > td,
+      .board .table > tbody > tr > td,
+      .board .table > tfoot > tr > td {
+        font-size: 14px; } }
+.board .responsive-help {
+  margin-top: 10px;
+  color: #777;
+  font-size: 13px; }
+.board.list > thead > tr > th, .board.list > tbody > tr > th, .board.list > tfoot > tr > th, .board.list > thead > tr > td, .board.list > tbody > tr > td, .board.list > tfoot > tr > td {
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word; }
+.board.write > thead > tr > th, .board.write > tbody > tr > th, .board.write > tfoot > tr > th {
+  width: 100px;
+  min-width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f7f7f7;
+  vertical-align: middle; }
+  @media (min-width: 768px) {
+    .board.write > thead > tr > th, .board.write > tbody > tr > th, .board.write > tfoot > tr > th {
+      width: 160px;
+      min-width: 160px; } }
+.board dl.inline {
+  overflow: hidden;
+  color: #777; }
+  .board dl.inline > dt {
+    float: left;
+    font-weight: normal;
+    line-height: 24px; }
+  .board dl.inline > dd {
+    float: left;
+    line-height: 24px; }
+    .board dl.inline > dd.bar {
+      margin-left: 5px;
+      margin-right: 5px; }
+.board input[type="text"].title {
+  width: 100%;
+  min-width: 100%; }
+.board input[type="text"].writer {
+  width: 150px;
+  min-width: 150px; }
+.board select {
+  height: 30px; }
+
+.board.list {
+  margin-bottom: 40px; }
+  .board.list .title > a {
+    display: block;
+    color: #777;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left; }
+
+.board.view {
+  margin-bottom: 40px; }
+  .board.view .date {
+    width: 150px; }
+    @media (min-width: 768px) {
+      .board.view .date {
+        width: 200px; } }
+  .board.view .details > .attachments {
+    text-align: right; }
+    .board.view .details > .attachments > li > a {
+      color: #686868;
+      font-size: 12px;
+      text-decoration: underline; }
+      @media (min-width: 768px) {
+        .board.view .details > .attachments > li > a {
+          font-size: 13px; } }
+  .board.view .details > div {
+    min-height: 200px; }
+  .board.view .details > .btn-area {
+    min-height: auto; }
+    .board.view .details > .btn-area > p {
+      text-align: center !important; }
+    .board.view .details > .btn-area .btn {
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+      border-radius: 5px;
+      color: #fff;
+      height: 40px; }
+      @media (min-width: 768px) {
+        .board.view .details > .btn-area .btn {
+          height: 50px !important;
+          line-height: 36px !important; } }
+    .board.view .details > .btn-area .btn-rel-details {
+      background-color: #f99d1c;
+      border-color: #f99d1c; }
+    .board.view .details > .btn-area .btn-rel-sponsor {
+      background-color: #f26522;
+      border-color: #f26522; }
+
+.board.write {
+  margin-bottom: 40px; }
+
+/*
+ * 웹진 스타일
+ */
+.webzine {
+  border-top: 2px solid #234ea2;
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    .webzine {
+      margin-bottom: 40px; } }
+  .webzine .overview {
+    padding: 20px 0 0;
+    border-bottom: 1px solid #ccc; }
+    @media (min-width: 768px) {
+      .webzine .overview {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    @media (min-width: 768px) {
+      .webzine .overview > .row {
+        margin-left: -22px;
+        margin-right: -22px; } }
+    @media (min-width: 1280px) {
+      .webzine .overview > .row {
+        margin-left: -15px;
+        margin-right: -15px; } }
+    .webzine .overview figure > img {
+      width: 100%; }
+    .webzine .overview .details {
+      padding: 15px 10px; }
+      @media (min-width: 768px) {
+        .webzine .overview .details {
+          padding: 0 0 0 20px; } }
+      .webzine .overview .details > p {
+        margin-bottom: 0; }
+        .webzine .overview .details > p.lead {
+          margin-bottom: 10px;
+          line-height: normal;
+          font-size: 15px;
+          line-height: 22px;
+          font-weight: normal;
+          color: #333; }
+          .webzine .overview .details > p.lead > .flag-icon {
+            margin-left: 5px; }
+          .webzine .overview .details > p.lead > .label {
+            width: 50px;
+            height: 20px;
+            font-size: 13px;
+            border-radius: 0;
+            background-color: #234ea2; }
+            .webzine .overview .details > p.lead > .label.label-done {
+              border: 1px solid #ccc;
+              background-color: #fff;
+              color: #555; }
+        .webzine .overview .details > p.summary {
+          font-size: 13px;
+          line-height: 22px;
+          color: #777; }
+          @media (min-width: 768px) {
+            .webzine .overview .details > p.summary {
+              margin-bottom: 20px;
+              font-size: 14px; } }
+        .webzine .overview .details > p.date {
+          display: none; }
+          @media (min-width: 768px) {
+            .webzine .overview .details > p.date {
+              display: block;
+              color: #777;
+              font-size: 13px; } }
+      .webzine .overview .details > h2 {
+        color: #333;
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 15px;
+        line-height: 22px; }
+        .webzine .overview .details > h2 > a {
+          color: #333; }
+  .webzine .tabs > ul > li {
+    float: left;
+    width: 50%;
+    margin-left: 0; }
+    .webzine .tabs > ul > li > a {
+      height: 40px;
+      margin-bottom: 0;
+      border-radius: 0;
+      color: #234ea2;
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc; }
+    .webzine .tabs > ul > li.active > a {
+      background-color: #234ea2;
+      color: #fff;
+      border-color: #234ea2; }
+  .webzine .panel-header {
+    position: relative;
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc; }
+    @media (min-width: 768px) {
+      .webzine .panel-header {
+        margin-top: 50px; } }
+    @media (min-width: 1280px) {
+      .webzine .panel-header {
+        margin-top: 65px; } }
+    .webzine .panel-header > h3 {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 20px;
+      margin-bottom: 0;
+      color: #333;
+      font-size: 16px;
+      line-height: 50px; }
+      @media (min-width: 768px) {
+        .webzine .panel-header > h3 {
+          padding-left: 30px;
+          padding-right: 120px;
+          font-size: 18px; } }
+    .webzine .panel-header > time {
+      display: none; }
+      @media (min-width: 768px) {
+        .webzine .panel-header > time {
+          display: block;
+          position: absolute;
+          right: 30px;
+          top: 0;
+          color: #777;
+          font-size: 14px;
+          line-height: 50px; } }
+  .webzine .panel-content {
+    border-bottom: 1px solid #ccc; }
+    .webzine .panel-content > div {
+      padding: 20px 10px;
+      color: #777;
+      font-size: 13px;
+      line-height: 24px; }
+      @media (min-width: 768px) {
+        .webzine .panel-content > div {
+          padding: 45px 30px;
+          font-size: 14px; } }
+
+.webzine.view .overview {
+  border-bottom: 0;
+  margin-bottom: 20px; }
+
+/*
+ * 미디어(포토, 영상) 게시판
+ */
+.gallery {
+  border-top: 2px solid #234ea2;
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    .gallery {
+      margin-bottom: 40px; } }
+  .gallery > .row {
+    padding-left: 0;
+    padding-right: 0; }
+    @media (min-width: 1280px) {
+      .gallery > .row {
+        padding-left: 4px;
+        padding-right: 4px; } }
+    .gallery > .row > div {
+      padding-left: 10px;
+      padding-right: 10px; }
+  .gallery .peice {
+    position: relative;
+    display: block;
+    margin-top: 20px; }
+    @media (min-width: 768px) {
+      .gallery .peice {
+        margin-top: 30px; } }
+    .gallery .peice > .figure {
+      position: relative;
+      height: 150px;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+      @media (min-width: 768px) {
+        .gallery .peice > .figure {
+          height: 200px; } }
+      @media (min-width: 1280px) {
+        .gallery .peice > .figure {
+          height: 250px; } }
+      .gallery .peice > .figure > p {
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0;
+        line-height: 40px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 13px; }
+    .gallery .peice > .cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+      .gallery .peice > .cover > div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 60px;
+        height: 60px;
+        margin-top: -30px;
+        margin-left: -30px;
+        font-size: 42px;
+        color: #fff; }
+
+#information .modal-body > .comment {
+  padding: 15px 10px;
+  color: #777;
+  font-size: 13px;
+  line-height: 22px; }
+  @media (min-width: 768px) {
+    #information .modal-body > .comment {
+      padding: 10px;
+      border: 0px solid #eaeaea;
+      background-color: #fff; } }
+
+/*# sourceMappingURL=board.css.map */
