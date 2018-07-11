@@ -377,15 +377,16 @@ a {
     #content {
       padding-top: 75px; } }
   #content h1 {
-    padding-left: 40px;
     margin-top: 0;
     font-size: 25px;
     line-height: normal;
+    text-align: center;
     color: #333;
     margin-bottom: 15px;
-    background-image: url(/assets/images/sub/ico_page_title.gif);
+    /*background-image: url(/assets/images/sub/ico_page_title.gif);
+    padding-left: 40px;
     background-repeat: no-repeat;
-    background-position: 0 50%; }
+    background-position: 0 50%;*/ }
     @media (min-width: 768px) {
       #content h1 {
         margin-bottom: 35px;

@@ -39,7 +39,7 @@
                                 FAMILY SITE
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="http://eng.goodpeople.or.kr/" target="_blank">굿피플 영문사이트(ENGLISH)</a>
+                                <a class="dropdown-item" href="http://civic.goodpeople.or.kr/" target="_blank">자유시민대학</a>
                                 <a class="dropdown-item" href="http://www.dongjaksilver.kr/" target="_blank">동작실버센터</a>
                             </div>
                         </div>

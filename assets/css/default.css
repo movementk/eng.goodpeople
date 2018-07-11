@@ -366,8 +366,7 @@ body {
   font-size: 13px;
   color: #111;
   font-weight: 300;
-  /*font-family: 'Noto Sans KR', sans-serif;*/
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   word-break: keep-all;
   margin-top: 55px;
   z-index: 1; }
@@ -1281,7 +1280,7 @@ body {
       font-family: 'Roboto', sans-serif; }
   @media (min-width: 768px) {
     #footer {
-      padding: 45px 0 45px; }
+      padding: 45px 0 35px; }
       #footer .company {
         text-align: left; }
         #footer .company h2 {
@@ -1341,7 +1340,7 @@ body {
         content: "\F005"; } }
   @media (min-width: 1200px) {
     #footer {
-      padding: 60px 4% 60px; }
+      padding: 60px 4% 40px; }
       #footer .company h2 {
         font-size: 15px; }
       #footer .company ul li {
