@@ -544,7 +544,6 @@
       line-height: 28px;
       font-weight: bold;
     }
-    > {
       .map {
         margin-bottom: 30px;
         > .root_daum_roughmap {
@@ -559,9 +558,7 @@
         }
         dl {
           overflow: hidden;
-          > {
             dt {
-              float: left;
               clear: left;
               line-height: 22px;
               font-weight: normal;
@@ -574,7 +571,6 @@
                 margin-right: 3px;
               }
             }
-          }
         }
       }
       .subway {
@@ -656,7 +652,6 @@
           }
         }
       }
-    }
   }
   /*&.history {
     .category-nav {
@@ -868,12 +863,12 @@
 }
 
 @media (min-width: 768px) {
-  #content.introduce.directions > .map {
+  #content.introduce.directions .map {
     margin-bottom: 40px;
   }
 }
 
-#content.introduce.directions > .contact {
+#content.introduce.directions .contact {
     //padding-left: 120px;
     padding-top: 100px;
     margin-bottom: 70px;
@@ -893,19 +888,19 @@
 }
 
 @media (min-width: 768px) {
-  #content.introduce.directions > .contact dl > dt {
+  #content.introduce.directions .contact dl > dt {
     line-height: 26px;
   }
 }
 
 @media (min-width: 768px) {
-  #content.introduce.directions > .contact dl > dd {
+  #content.introduce.directions .contact dl > dd {
     line-height: 26px;
   }
 }
 
 
-#content.introduce.directions > .subway {
+#content.introduce.directions .subway {
     padding-top: 100px;
     margin-bottom: 70px;
     background: url(/assets/images/introduce/ico_subway.gif) no-repeat 50% 0;
@@ -927,7 +922,7 @@
     }
 }
 
-#content.introduce.directions > .bus {
+#content.introduce.directions .bus {
     padding-top: 100px;
     margin-bottom: 70px;
     background: url(/assets/images/introduce/ico_bus.gif) no-repeat 50% 0;
@@ -946,7 +941,7 @@
 }
 
 @media (min-width: 1280px) {
-  #content.introduce.directions > .bus > .stop {
+  #content.introduce.directions .bus .stop {
     overflow: hidden;
     clear: both;
     &:nth-of-type(1) {
@@ -958,19 +953,19 @@
 }
 
 @media (min-width: 768px) {
-  #content.introduce.directions > .bus h3 {
+  #content.introduce.directions .bus h3 {
     font-size: 16px;
   }
 }
 
 @media (min-width: 1280px) {
-  #content.introduce.directions > .bus h3 {
+  #content.introduce.directions .bus h3 {
     float: left;
   }
 }
 
 @media (min-width: 1280px) {
-  #content.introduce.directions > .bus dl {
+  #content.introduce.directions .bus dl {
     margin-left: 220px;
     margin-top: 20px;
     margin-bottom: 20px;
