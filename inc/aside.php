@@ -106,10 +106,8 @@
                             family site
                         </button>
                         <div class="dropdown-menu">
-                            <a href="#">site1</a>
-                            <a href="#">site2</a>
-                            <a href="#">site3</a>
-                            <a href="#">site4</a>
+                            <a href="#">GoodPeoPle Site KOR</a>
+                            <a href="http://www.dongjaksilver.kr/">동작실버센터</a>
                         </div>
                     </div>
                 </div>
