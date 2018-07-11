@@ -1,38 +1,14 @@
 /*
-@import 'common';
-
-//국내 
-.domestic-business {
-	.equip {
-		.details {
-			  p {
-				font-size: 14px;
-				line-height: 22px;
-				font-weight: normal;
-				@media (min-width: 768px) {
-					font-size: 16px;
-					line-height: 26px;
-				}
-			}
-		}
-		.equip-list {
-			font-size: 14px;
-			line-height: 22px;
-			margin-top: 25px;
-			margin-bottom: 150px;
-			color: #234ea2;
-		}
-	}
-}
-*/
-
-
-
-/*
  * @설명: 아동결연 메뉴의 하위 메뉴들에 대한 스타일
  */
 
 #content {
+    .paging {
+        margin-top: 30px;
+        @media(min-width: 768px) {
+            margin-top: 45px;
+        }
+    }
   &.relationship {
     font-size: 13px;
     line-height: 20px;
