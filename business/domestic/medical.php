@@ -35,15 +35,17 @@
                 <p>Goodpeople medical volunteer group was founded in 1999 for live-alone elders, disabled individuals, foreign worker, homeless, disadvantaged population. The medical volunteer group, consisting of medical personnel and normal volunteers, visits their home to give diagnostics and treatments. In occurrence of natural disasters or safety accidents, Goodpeople sends medical group consisted of doctors, nurses, social workers, and volunteers to expediently provide medical assistance as well as damage restoration.</p>
                 <div class="figures">
                     <div class="row">
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-6">
                             <p><img src="/assets/images/business/img_domestic_medical1.jpg"></p>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-6">
                             <p><img src="/assets/images/business/img_domestic_medical2.jpg"></p>
                         </div>
+<!--
                         <div class="col-12 col-md-4">
                             <p><img src="/assets/images/business/img_domestic_medical3.jpg"></p>
                         </div>
+-->
                     </div>
                 </div>
             </section>

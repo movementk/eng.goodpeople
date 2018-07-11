@@ -29,15 +29,17 @@
                 <p>Goodpeople builds hospitals and health center, improves medical facility, supplies medical equipment, medicine, and physicians to 3rd world countries that are more vulnerable to diseases. Through such provisions, the beneficiary regions have improved medical facilities and its population receives medical treatments that will be able to prevent future acquisition of diseases and even deaths.</p>
                 <div class="figures">
                     <div class="row">
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-6">
                             <p><img src="/assets/images/business/img_overseas_medical1.jpg"></p>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-6">
                             <p><img src="/assets/images/business/img_overseas_medical2.jpg"></p>
                         </div>
+<!--
                         <div class="col-12 col-md-4">
                             <p><img src="/assets/images/business/img_overseas_medical3.jpg"></p>
                         </div>
+-->
                     </div>
                 </div>
                 <ul class="features">
