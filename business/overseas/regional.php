@@ -50,14 +50,11 @@
             </ul>
             <div class="figures">
                 <div class="row">
-                    <div class="col-12 col-md-4">
-                        <p><img src="/assets/images/business/img_overseas_regional1.jpg"></p>
+                    <div class="col-12 col-md-6">
+                        <p><img src="/assets/images/business/img_water01.jpg"></p>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <p><img src="/assets/images/business/img_overseas_regional2.jpg"></p>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <p><img src="/assets/images/business/img_overseas_regional3.jpg"></p>
+                    <div class="col-12 col-md-6">
+                        <p><img src="/assets/images/business/img_water02.jpg"></p>
                     </div>
                 </div>
             </div>
@@ -71,11 +68,14 @@
             </p>
             <div class="figures">
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                        <p><img src="/assets/images/business/img_overseas_regional4.jpg"></p>
+                    <div class="col-12 col-md-4">
+                        <p><img src="/assets/images/business/img_local01.jpg"></p>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <p><img src="/assets/images/business/img_overseas_regional5.jpg"></p>
+                    <div class="col-12 col-md-4">
+                        <p><img src="/assets/images/business/img_local02.jpg"></p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <p><img src="/assets/images/business/img_local03.jpg"></p>
                     </div>
                 </div>
             </div>

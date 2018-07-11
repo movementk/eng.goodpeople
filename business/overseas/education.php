@@ -29,15 +29,15 @@
                 <p>Centered around areas where receiving education is difficult, Goodpeople constructs preschools, primary and secondary schools, vocational training schools, libraries, and dormitories. In addition, Goodpeople sends experts in educations to open teacher’s workshop and develop human resources.</p>
                 <div class="figures">
                     <div class="row">
-                        <div class="col-12 col-md-4">
-                            <p><img src="/assets/images/business/img_overseas_education1.jpg"></p>
+                        <div class="col-12 col-md-6">
+                            <p><img src="/assets/images/business/img_education_item01.jpg"></p>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <p><img src="/assets/images/business/img_overseas_education2.jpg"></p>
+                        <div class="col-12 col-md-6">
+                            <p><img src="/assets/images/business/img_education_item02.jpg"></p>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <!--<div class="col-12 col-md-4">
                             <p><img src="/assets/images/business/img_overseas_education3.jpg"></p>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <ul class="features">
