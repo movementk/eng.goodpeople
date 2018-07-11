@@ -383,34 +383,34 @@
       font-size: 15px;
       line-height: 28px;
       font-weight: bold; }
-    #content.introduce.directions > .map {
+    #content.introduce.directions .map {
       margin-bottom: 30px; }
-      #content.introduce.directions > .map > .root_daum_roughmap {
+      #content.introduce.directions .map > .root_daum_roughmap {
         width: 100%; }
-    #content.introduce.directions > .contact {
+    #content.introduce.directions .contact {
       margin-bottom: 40px; }
-      #content.introduce.directions > .contact address {
+      #content.introduce.directions .contact address {
         margin-bottom: 0;
         line-height: 22px; }
-      #content.introduce.directions > .contact dl {
+      #content.introduce.directions .contact dl {
         overflow: hidden; }
-        #content.introduce.directions > .contact dl > dt {
+        #content.introduce.directions .contact dl dt {
           float: left;
-          clear: left;
+          clear: both;
           line-height: 22px;
           font-weight: normal; }
-        #content.introduce.directions > .contact dl > dd {
+        #content.introduce.directions .contact dl dd {
           float: left;
           line-height: 22px; }
-          #content.introduce.directions > .contact dl > dd.colon {
+          #content.introduce.directions .contact dl dd.colon {
             margin-left: 3px;
             margin-right: 3px; }
-    #content.introduce.directions > .subway {
+    #content.introduce.directions .subway {
       margin-bottom: 40px; }
-      #content.introduce.directions > .subway ul > li {
+      #content.introduce.directions .subway ul > li {
         margin-bottom: 6px;
         line-height: 26px; }
-        #content.introduce.directions > .subway ul > li > i.line {
+        #content.introduce.directions .subway ul > li > i.line {
           display: inline-block;
           width: 26px;
           height: 26px;
@@ -421,22 +421,22 @@
           text-align: center;
           font-size: 16px;
           font-family: 'Arial Bold'; }
-          #content.introduce.directions > .subway ul > li > i.line.line-9 {
+          #content.introduce.directions .subway ul > li > i.line.line-9 {
             background-color: #bf9f1e; }
-          #content.introduce.directions > .subway ul > li > i.line.line-5 {
+          #content.introduce.directions .subway ul > li > i.line.line-5 {
             background-color: #893bb6; }
-    #content.introduce.directions > .bus h3 {
+    #content.introduce.directions .bus h3 {
       font-size: 13px;
       line-height: 26px; }
-    #content.introduce.directions > .bus dl {
+    #content.introduce.directions .bus dl {
       overflow: hidden; }
-      #content.introduce.directions > .bus dl > dt {
+      #content.introduce.directions .bus dl > dt {
         float: left;
         clear: left;
         margin-bottom: 4px;
         margin-right: 15px;
         line-height: 22px; }
-        #content.introduce.directions > .bus dl > dt > span {
+        #content.introduce.directions .bus dl > dt > span {
           display: block;
           width: 45px;
           height: 22px;
@@ -444,25 +444,25 @@
           font-size: 11px;
           border-width: 1px;
           border-style: solid; }
-        #content.introduce.directions > .bus dl > dt.short > span {
+        #content.introduce.directions .bus dl > dt.short > span {
           background-color: #50a232;
           border-color: #418529; }
-        #content.introduce.directions > .bus dl > dt.long > span {
+        #content.introduce.directions .bus dl > dt.long > span {
           background-color: #3556a7;
           border-color: #314f99; }
-        #content.introduce.directions > .bus dl > dt.town > span {
+        #content.introduce.directions .bus dl > dt.town > span {
           background-color: #8aba62;
           border-color: #519637; }
-      #content.introduce.directions > .bus dl > dd {
+      #content.introduce.directions .bus dl > dd {
         float: left;
         margin-bottom: 4px;
         line-height: 22px;
         font-size: 14px; }
-        #content.introduce.directions > .bus dl > dd.short {
+        #content.introduce.directions .bus dl > dd.short {
           color: #50a232; }
-        #content.introduce.directions > .bus dl > dd.long {
+        #content.introduce.directions .bus dl > dd.long {
           color: #3556a7; }
-        #content.introduce.directions > .bus dl > dd.town {
+        #content.introduce.directions .bus dl > dd.town {
           color: #50a232; }
   #content.introduce.financial > section {
     position: relative;
@@ -579,76 +579,76 @@
     font-size: 18px;
     line-height: 28px; } }
 @media (min-width: 768px) {
-  #content.introduce.directions > .map {
+  #content.introduce.directions .map {
     margin-bottom: 40px; } }
-#content.introduce.directions > .contact {
+#content.introduce.directions .contact {
   padding-top: 100px;
   margin-bottom: 70px;
   background: url(/assets/images/introduce/ico_contact.gif) no-repeat 50% 0; }
-  #content.introduce.directions > .contact h2 {
+  #content.introduce.directions .contact h2 {
     color: #54627c;
     text-align: center; }
   @media (min-width: 768px) {
-    #content.introduce.directions > .contact {
+    #content.introduce.directions .contact {
       padding-top: 0;
       padding-left: 120px;
       background-position: 0 0; }
-      #content.introduce.directions > .contact h2 {
+      #content.introduce.directions .contact h2 {
         text-align: left; } }
 
 @media (min-width: 768px) {
-  #content.introduce.directions > .contact dl > dt {
+  #content.introduce.directions .contact dl > dt {
     line-height: 26px; } }
 @media (min-width: 768px) {
-  #content.introduce.directions > .contact dl > dd {
+  #content.introduce.directions .contact dl > dd {
     line-height: 26px; } }
-#content.introduce.directions > .subway {
+#content.introduce.directions .subway {
   padding-top: 100px;
   margin-bottom: 70px;
   background: url(/assets/images/introduce/ico_subway.gif) no-repeat 50% 0; }
-  #content.introduce.directions > .subway h2 {
+  #content.introduce.directions .subway h2 {
     color: #54627c;
     text-align: center; }
-  #content.introduce.directions > .subway ul > li {
+  #content.introduce.directions .subway ul > li {
     line-height: 1.5em; }
   @media (min-width: 768px) {
-    #content.introduce.directions > .subway {
+    #content.introduce.directions .subway {
       padding-top: 0;
       padding-left: 120px;
       padding-bottom: 10px;
       background-position: 0 0; }
-      #content.introduce.directions > .subway h2 {
+      #content.introduce.directions .subway h2 {
         text-align: left; } }
 
-#content.introduce.directions > .bus {
+#content.introduce.directions .bus {
   padding-top: 100px;
   margin-bottom: 70px;
   background: url(/assets/images/introduce/ico_bus.gif) no-repeat 50% 0; }
-  #content.introduce.directions > .bus h2 {
+  #content.introduce.directions .bus h2 {
     color: #54627c;
     text-align: center; }
   @media (min-width: 768px) {
-    #content.introduce.directions > .bus {
+    #content.introduce.directions .bus {
       padding-left: 120px;
       padding-top: 0;
       background-position: 0 0; }
-      #content.introduce.directions > .bus h2 {
+      #content.introduce.directions .bus h2 {
         text-align: left; } }
 
 @media (min-width: 1280px) {
-  #content.introduce.directions > .bus > .stop {
+  #content.introduce.directions .bus .stop {
     overflow: hidden;
     clear: both; }
-    #content.introduce.directions > .bus > .stop:nth-of-type(1) h3, #content.introduce.directions > .bus > .stop:nth-of-type(1) dl {
+    #content.introduce.directions .bus .stop:nth-of-type(1) h3, #content.introduce.directions .bus .stop:nth-of-type(1) dl {
       margin-top: 0; } }
 @media (min-width: 768px) {
-  #content.introduce.directions > .bus h3 {
+  #content.introduce.directions .bus h3 {
     font-size: 16px; } }
 @media (min-width: 1280px) {
-  #content.introduce.directions > .bus h3 {
+  #content.introduce.directions .bus h3 {
     float: left; } }
 @media (min-width: 1280px) {
-  #content.introduce.directions > .bus dl {
+  #content.introduce.directions .bus dl {
     margin-left: 220px;
     margin-top: 20px;
     margin-bottom: 20px; } }
