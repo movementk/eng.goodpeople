@@ -255,6 +255,7 @@
             padding: 0;
             border: 1px solid #fff;
             border-radius: 0;
+            box-shadow: none !important;
             &.type-1 {
                 border-color: #144199;
                 background-color: #144199;
@@ -445,64 +446,369 @@
 }
 
 //인터네셔널
-#international {
-	padding: 60px 0; 
-	background-color: #f3f5fa;
-	.section-header {
-		h3 {
-			font-size: 25px;
-			color: #144199;
-			font-weight: 500;
-			text-align: center;
-			@include roboto();
-		}
-		> p {
-			font-size: 13px;
-			color: #333;
-			line-height: 22px;
-			font-weight: 400;
-			text-align: center;
-			margin-top: 30px;
-			@include roboto();
-			> span {
-				font-weight: 500;
-			} 
-			> .or {
-				color: #eb6100;
-			}
-			> .bl {
-				color: #144199;
-			}
-		}
-		.btn-area {
-			text-align: center;
-			margin-top: 30px;
-			p {
-				.btn {
-					&.btn-orange {
-						width: 115px;
-						height: 34px;
-						font-size: 12px;
-						line-height: 34px;
-						color: #e05f08;
-						border: 1px solid #e05f08;
-						&:hover, &:focus {
-							color: #fff;
-							background-color: #e05f08;
-							@include transition();
-						}
-					}
-				}
-			}
-		}
-	}
-	.section-content {
-		.maps {
-			margin-top: 60px;
-			img {
-				display: block;
-				margin: 0 auto;
-			}
-		}
-	}
+.international {
+    background-color: #f3f5fa;
+    .section-header {
+        text-align: center;
+        padding: 60px 0;
+        @include roboto();
+        h3 {
+            font-size: 25px;
+            color: #144199;
+            font-weight: 500;
+            line-height: 34px;
+            margin-bottom: 30px;
+        }
+        > p {
+            font-size: 13px;
+            color: #333;
+            font-weight: 400;
+            line-height: 20px;
+            b {
+                font-weight: 500;
+                font-style: normal;
+                &.or {
+                    color: #eb6100;
+                }
+                &.bl {
+                    color: #144199;
+                }
+            }
+        }
+        .btn-more {
+            margin-top: 35px;
+            .btn-default {
+                width: 114px;
+                font-size: 12px;
+                line-height: 32px;
+                color: #e05f08;
+                padding: 0;
+                border-radius: 0;
+                box-shadow: none !important;
+                @include transition();
+                border: 1px solid #eb6100;
+                &:hover {
+                    color: #fff;
+                    background-color: #e05f08;
+                }
+            }
+        }
+    }
+    .section-content {
+        padding-bottom: 60px;
+        .maps {
+            .img-fluid {
+                display: block;
+                margin: 0 auto;
+            }
+            .item {
+                position: relative;
+                .international-map {
+                    width: 100%;
+                    opacity: 0;
+                    @include transition($duration: .90s);
+                    transform: scale(.5);
+                }
+                .icon-national-flag {
+                    position: absolute;
+                    top: -50px;
+                    left: 0;
+                    width: 100%;
+                    opacity: 0;
+                    @include transition($duration: .90s, $delay: 1.5s);
+                }
+                &.on {
+                    .international-map {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                    .icon-national-flag {
+                        top: 0px;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .section-header {
+            h3 {
+                font-size: 32px;
+                margin-bottom: 25px;
+            }
+            > p {
+                font-size: 15px;
+                line-height: 26px;
+            }
+            .btn-more {
+                margin-top: 40px;
+                .btn-default {
+                    font-size: 15px;
+                    width: 135px;
+                    line-height: 38px;
+                }
+            }
+        }
+        .section-content {
+            padding-bottom: 95px;
+        }
+    }
+    @media(min-width: $xl) {
+        .section-header {
+            h3 {
+                font-size: 35px;
+            }
+            > p {
+                font-size: 18px;
+            }
+            .btn-more {
+                margin-top: 45px;
+            }
+        }
+        .section-content {
+            padding-bottom: 110px;
+        }
+    }
 }
+
+//personal 
+.personal {
+    article {
+        .icon-img {
+            .img-fluid {
+                width: 100%;
+                display: block;
+            }
+        }
+        .details {
+            padding: 75px 0;
+            text-align: center;
+            @include roboto();
+            h3 {
+                font-size: 26px;
+                font-weight: 400;
+                margin-bottom: 30px;
+            }
+            p {
+                font-size: 13px;
+                line-height: 24px;
+            }
+            .contact {
+                margin-top: 30px;
+                > li {
+                    line-height: 30px;
+                    a {
+                        color: #eb6100;
+                        font-weight: 500;
+                        &:before {
+                            position: relative;
+                            top: 2px;
+                            display: inline-block;
+                            margin-right: 5px;
+                            vertical-align: middle;
+                            transform: scale(.7);
+                        }
+                    }
+                    &.tel {
+                        a {
+                            &:before {
+                                content: url(/assets/images/main/ico_tel.png);
+                            }
+                        }
+                    }
+                    &.mail {
+                        a {
+                            &:before {
+                                content: url(/assets/images/main/ico_mail.png);
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-more {
+                margin-top: 35px;
+                .btn-white {
+                    width: 114px;
+                    font-size: 12px;
+                    line-height: 32px;
+                    color: #fff;
+                    padding: 0;
+                    border-radius: 0;
+                    box-shadow: none !important;
+                    @include transition();
+                    border: 1px solid #fff;
+                    &:hover {
+                        color: #7e846e;
+                        background-color: #fff;
+                    }
+                    @media(min-width: $md) {
+                        font-size: 15px;
+                        width: 135px;
+                        line-height: 38px;
+                    }
+                }
+            }
+        }
+        &.donation {
+            .details {
+                color: #333;
+                background-color: #fcc953;
+                h3 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        &.partner {
+            .details {
+                color: #fff;
+                background-color: #7e846e;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        article {
+            .details {
+                padding: 110px 0;
+                h3 {
+                    font-size: 35px;
+                    margin-bottom: 35px;
+                }
+                p {
+                    font-size: 14px;
+                }
+                .contact {
+                    margin-top: 40px;
+                    > li {
+                        display: inline-block;
+                        margin-right: 40px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        a {
+                            font-size: 18px;
+                            &:before {
+                                margin-right: 10px;
+                                transform: scale(1);
+                            }
+                        }
+                    }
+                }
+                .btn-more {
+                    margin-top: 40px;
+                    .btn-white {
+                        font-size: 15px;
+                        width: 135px;
+                        line-height: 38px;
+                    }
+                }
+            }
+            &.partner {
+                .details {
+                    p {
+                        font-size: 13px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        article {
+            overflow: hidden;
+            > div {
+                display: inline-block;
+                width: 50%;
+                height: 100%;
+            }
+            .details {
+                position: relative;    
+                padding: 0;
+                h3 {
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: 16px;
+                }
+                .position-box {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    .v-align {
+                        display: table;
+                        width: 100%;
+                        height: 100%;
+                        > div {
+                            display: table-cell;
+                            width: 100%;
+                            height: 100%;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            &.donation {
+                .icon-img {
+                    float: left;
+                }
+                .details {
+                    float: right;
+                }
+            }
+            &.partner {
+                .icon-img {
+                    float: right;
+                }
+                .details {
+                    float: left;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
