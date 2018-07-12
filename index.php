@@ -70,7 +70,7 @@
 						<b class="bl">all around the world</b>
 					</p>
 					<div class="btn-more">
-				        <a href="#" class="btn btn-default btn-orange" role="button">more</a>
+				        <a href="/relationship/overseas_business.php" class="btn btn-default btn-orange" role="button">more</a>
 					</div>
 				</div>
 				<div class="section-content">
@@ -125,7 +125,7 @@
                                         In contemporary society, a corporate philanthropy has shifted  from an option to a requirement.<br class="d-none d-xl-block">  It has become<br class="d-none d-md-block d-xl-none"> increasingly important in establishing a corporate’s positive image.<br class="d-none d-xl-block"> Moreover, corporat philanthropy s timulate<br class="d-none d-md-block d-xl-none"> employee participation and unity, and  sense of<br class="d-none d-xl-block"> worthwhile through giving. Goodpeople is waiting for<br class="d-none d-md-block d-xl-none"> partnership with corporation  who will<br class="d-none d-xl-block"> participate in making the world a better place to live.
                                     </P>
                                     <div class="btn-more">
-                                        <a href="#" class="btn btn-default btn-white" role="button">more</a>
+                                        <a href="/sponsor/partner/introduce.php" class="btn btn-default btn-white" role="button">more</a>
                                     </div>
                                 </div>
                             </div>

@@ -55,7 +55,7 @@
                                     <li><a href="/business/overseas/medical.php">Health and medical project<span></span></a></li>
                                     <li><a href="/business/overseas/education.php">Education project<span></span></a></li>
                                     <li><a href="/business/overseas/regional.php">Local development project<span></span></a></li>
-                                    <li><a href="/business/overseas/children.php">child protection project<span></span></a></li>
+                                    <li><a href="/business/overseas/children.php">Child protection project<span></span></a></li>
                                 </ul>
                             </li>
                             <li>
