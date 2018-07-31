@@ -865,6 +865,90 @@ body {
           #gnb .gnb-menu > li > div .page-map .page-list {
             overflow: hidden;
             height: 100%; }
+            #gnb .gnb-menu > li > div .page-map .page-list.about-list > li {
+              border-right: 1px solid #dfdfdf;
+              width: 20%;
+              padding-right: 40px; }
+              #gnb .gnb-menu > li > div .page-map .page-list.about-list > li a {
+                font-size: 15px;
+                color: #888;
+                line-height: 36px; }
+              #gnb .gnb-menu > li > div .page-map .page-list.about-list > li.on h3 {
+                color: #fff; }
+              #gnb .gnb-menu > li > div .page-map .page-list.about-list > li.on > a {
+                display: inline-block;
+                position: relative;
+                color: rgba(255, 255, 255, 0.5);
+                -webkit-transition-property: all;
+                transition-property: all;
+                -webkit-transition-duration: 0.15s;
+                transition-duration: 0.15s;
+                -webkit-transition-timing-function: linear;
+                transition-timing-function: linear;
+                -webkit-transition-delay: 0s;
+                transition-delay: 0s; }
+                #gnb .gnb-menu > li > div .page-map .page-list.about-list > li.on > a span {
+                  position: absolute;
+                  bottom: 0;
+                  left: 50%;
+                  width: 0;
+                  display: block;
+                  border-top: 1px solid #f5bba3;
+                  border-bottom: 1px solid #f09267;
+                  -webkit-transition-property: all;
+                  transition-property: all;
+                  -webkit-transition-duration: 0.15s;
+                  transition-duration: 0.15s;
+                  -webkit-transition-timing-function: linear;
+                  transition-timing-function: linear;
+                  -webkit-transition-delay: 0s;
+                  transition-delay: 0s; }
+                #gnb .gnb-menu > li > div .page-map .page-list.about-list > li.on > a:hover, #gnb .gnb-menu > li > div .page-map .page-list.about-list > li.on > a:focus {
+                  color: #fff; }
+                  #gnb .gnb-menu > li > div .page-map .page-list.about-list > li.on > a:hover span, #gnb .gnb-menu > li > div .page-map .page-list.about-list > li.on > a:focus span {
+                    width: 100%;
+                    margin-left: -50%; }
+            #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li {
+              padding-right: 40px; }
+              #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li a {
+                font-size: 15px;
+                color: #888;
+                line-height: 36px; }
+              #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li.on h3 {
+                color: #fff; }
+              #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li.on > a {
+                display: inline-block;
+                position: relative;
+                color: rgba(255, 255, 255, 0.5);
+                -webkit-transition-property: all;
+                transition-property: all;
+                -webkit-transition-duration: 0.15s;
+                transition-duration: 0.15s;
+                -webkit-transition-timing-function: linear;
+                transition-timing-function: linear;
+                -webkit-transition-delay: 0s;
+                transition-delay: 0s; }
+                #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li.on > a span {
+                  position: absolute;
+                  bottom: 0;
+                  left: 50%;
+                  width: 0;
+                  display: block;
+                  border-top: 1px solid #f5bba3;
+                  border-bottom: 1px solid #f09267;
+                  -webkit-transition-property: all;
+                  transition-property: all;
+                  -webkit-transition-duration: 0.15s;
+                  transition-duration: 0.15s;
+                  -webkit-transition-timing-function: linear;
+                  transition-timing-function: linear;
+                  -webkit-transition-delay: 0s;
+                  transition-delay: 0s; }
+                #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li.on > a:hover, #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li.on > a:focus {
+                  color: #fff; }
+                  #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li.on > a:hover span, #gnb .gnb-menu > li > div .page-map .page-list.outreach-list > li.on > a:focus span {
+                    width: 100%;
+                    margin-left: -50%; }
             #gnb .gnb-menu > li > div .page-map .page-list > li {
               float: left;
               width: 33.33%;

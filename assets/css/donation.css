@@ -4,10 +4,8 @@
     font-family: 'Arial'; }
   .donation .support {
     margin-top: 30px;
-    font-family: 'Arial'; }
-    @media (min-width: 1280px) {
-      .donation .support {
-        margin-bottom: 150px; } }
+    font-family: 'Arial';
+    margin-bottom: 250px; }
     .donation .support .contact dl {
       margin-top: 30px;
       color: #234ea2; }

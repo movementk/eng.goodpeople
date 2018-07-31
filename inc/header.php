@@ -19,7 +19,30 @@
                         </figure>
                     </div>
                     <div class="page-map">
-                        <ul class="page-list">
+                  	  <ul class="page-list about-list">
+                            <li>
+                            	<h3>Greeting message</h3>
+							   <a href="/introduce/greetings.php">Greeting message<span></span></a>
+                            </li>
+                            <li>
+                            	<h3>Vision and Value</h3>
+                            	<a href="/introduce/vision.php">Vision and Value<span></span></a>
+                            </li>
+                            <li>
+                            	<h3>History</h3>
+                            	<a href="/introduce/history.php">History<span></span></a>
+                            </li>
+                             <li>
+                            	<h3>Organization</h3>
+                            	<a href="/introduce/organization.php">Organization<span></span></a>
+                            </li>
+                             <li>
+                            	<h3>CI Introduction</h3>
+                            	<a href="/introduce/ci.php">CI Introduction<span></span></a>
+                            </li>
+                        </ul>
+<!--
+                        <ul class="page-list verical-list">
                             <li>
                                 <h3>About Us</h3>
                                 <ul>
@@ -31,6 +54,7 @@
                                 </ul>
                             </li>
                         </ul>
+-->
                     </div>
                 </div>
             </li>
@@ -91,7 +115,22 @@
                         </figure>
                     </div>
                     <div class="page-map">
-                        <ul class="page-list">
+						<ul class="page-list outreach-list">
+							<li>
+								<h3>International sponsorship establishment</h3>
+								<a href="/relationship/overseas_business.php">International sponsorship establishment<span></span></a>
+							</li>
+							<li>
+								<h3>Domestic sponsorship establishment</h3>
+								<a href="/relationship/domestic_business.php">Domestic sponsorship establishment<span></span></a>
+							</li>
+							<li>
+								<h3>Contact us</h3>
+								<a href="/introduce/directions.php">Contact us<span></span></a>
+							</li>
+						</ul>
+<!--
+                        <ul class="page-list outreach-list">
                             <li>
                                 <h3>Outreach</h3>
                                 <ul>
@@ -101,6 +140,7 @@
                                 </ul>
                             </li>
                         </ul>
+-->
                     </div>
                 </div>
             </li>
